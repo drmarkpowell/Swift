@@ -65,7 +65,44 @@ try app.run()
 
 ![Connect with a browser to the endpoint](docs/browser.png)
 
+## Lambda: run a Swift microservice
+Package Swift code to run as an AWS Lambda 
 
+```swift
+import AWSLambdaRuntime
+
+// Request, uses Codable for transparent JSON encoding
+private struct Request: Codable {
+  let name: String
+}
+
+// Response, uses Codable for transparent JSON encoding
+private struct Response: Codable {
+  let message: String
+}
+
+// In this example we are receiving and responding with `Codable`.
+Lambda.run { (context, 
+				request: Request, 
+				callback: @escaping (Result<Response, Error>) -> Void) in
+  callback(.success(Response(message: "Hello, \(request.name)")))
+}
+```
+
+## TensorFlow: interoperate with Python for ML
+
+[TensorFlow using Python from Swift](https://www.tensorflow.org/swift/tutorials/python_interoperability)
+
+```swift
+import Python
+
+let numpy = Python.import("numpy")
+let zeros = numpy.ones([2, 4])
+/* [[1, 1, 1, 1]
+    [1, 1, 1, 1]] */
+```
+
+![Swift for Jupyter screenshot](https://github.com/google/swift-jupyter/blob/master/screenshots/display_matplotlib.png)
 
 ## Where do I go to learn it?
 
