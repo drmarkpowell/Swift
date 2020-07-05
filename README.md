@@ -42,6 +42,7 @@ Hello, world!
 x: Int = 42
 ```
 
+![Swift Playground screenshot] (docs/playground.png)
 
 ## Vapor: run server-side Swift in a web framework
 
