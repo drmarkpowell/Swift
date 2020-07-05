@@ -93,6 +93,15 @@ Lambda.run { (context,
 
 [TensorFlow using Python from Swift](https://www.tensorflow.org/swift/tutorials/python_interoperability)
 
+[Why?](https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md)
+
+Current Python challenges:
+
+* Performance
+* Concurrency
+* Deployment (compiles to native code, no garbage collector)
+* Custom Ops: GPU kernels for NVidia and AMD
+
 ```swift
 import Python
 
@@ -101,6 +110,9 @@ let zeros = numpy.ones([2, 4])
 /* [[1, 1, 1, 1]
     [1, 1, 1, 1]] */
 ```
+## Swift in Jupyter Notebook
+
+[Google's swift-jupyter project](https://github.com/google/swift-jupyter)
 
 ![Swift for Jupyter screenshot](https://github.com/google/swift-jupyter/blob/master/screenshots/display_matplotlib.png)
 
