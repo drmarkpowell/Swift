@@ -2,13 +2,13 @@
 
 ## What is Swift?
 
-Find out here: [swift.org] (https://swift.org/)
+Find out here: [swift.org](https://swift.org/)
 
 **Swift** is a general-purpose programming *language* built using a modern approach to safety, performance, and software design patterns. The goal of the **Swift project** is to create the best available *language* for uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services.
 
-[Swift evolution] (https://apple.github.io/swift-evolution/)
+[Swift evolution](https://apple.github.io/swift-evolution/)
 
-Latest Swift news: [swift.org/blog] (https://swift.org/blog/)
+Latest Swift news: [swift.org/blog](https://swift.org/blog/)
 
 
 ## What is it good for?
@@ -25,7 +25,7 @@ First class support (as of mid 2020) for:
 
 Windows support is coming in a near-future milestone.
 
-It can run on a Raspberry Pi, [demo here] (https://lickability.com/blog/swift-on-raspberry-pi/)
+It can run on a Raspberry Pi, [demo here](https://lickability.com/blog/swift-on-raspberry-pi/)
 
 
 ## What's it like?
@@ -42,13 +42,13 @@ Hello, world!
 x: Int = 42
 ```
 
-![Swift Playground screenshot] (docs/playground.png)
+![Swift Playground screenshot](docs/playground.png)
 
 ## Vapor: run server-side Swift in a web framework
 
 % brew install vapor/tap/vapor
 
-[Create] (https://docs.vapor.codes/4.0/hello-world/) a Vapor project
+[Create](https://docs.vapor.codes/4.0/hello-world/) a Vapor project
 
 ```swift
 import Vapor
@@ -69,9 +69,9 @@ try app.run()
 
 ## Where do I go to learn it?
 
-* Swift Getting Started at [swift.org] (https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+* Swift Getting Started at [swift.org](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 
-* [100 Days of Swift] (https://www.hackingwithswift.com/100) by Paul Hudson
-* [Ray Wenderlich tutorials] (https://www.raywenderlich.com/ios/paths/learn) at raywenderlich.com
-* [Apple WWDC videos] (https://developer.apple.com/videos/) at developer.apple.com
+* [100 Days of Swift](https://www.hackingwithswift.com/100) by Paul Hudson
+* [Ray Wenderlich tutorials](https://www.raywenderlich.com/ios/paths/learn) at raywenderlich.com
+* [Apple WWDC videos](https://developer.apple.com/videos/) at developer.apple.com
 
