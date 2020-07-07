@@ -2,9 +2,11 @@
 
 ## What is Swift?
 
-Find out here: [swift.org](https://swift.org/)
 
 **Swift** is a general-purpose programming *language* built using a modern approach to safety, performance, and software design patterns. The goal of the **Swift project** is to create the best available *language* for uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services.
+
+
+More here: [swift.org](https://swift.org/)
 
 [Swift evolution](https://apple.github.io/swift-evolution/)
 
@@ -44,7 +46,7 @@ x: Int = 42
 
 ![Swift Playground screenshot](docs/playground.png)
 
-## Vapor: run server-side Swift in a web framework
+## Vapor: write a web service in Swift
 
 % brew install vapor/tap/vapor
 
