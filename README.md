@@ -85,8 +85,8 @@ private struct Response: Codable {
 
 // In this example we are receiving and responding with `Codable`.
 Lambda.run { (context, 
-				request: Request, 
-				callback: @escaping (Result<Response, Error>) -> Void) in
+	      request: Request, 
+	      callback: @escaping (Result<Response, Error>) -> Void) in
   callback(.success(Response(message: "Hello, \(request.name)")))
 }
 ```
